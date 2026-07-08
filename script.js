@@ -1,3 +1,10 @@
+// Always start website from the top when opened
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
+
+
+
 // Smooth scroll button
 
 document.getElementById("begin").addEventListener("click", function(){
